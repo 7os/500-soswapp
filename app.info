@@ -1,0 +1,13 @@
+{
+  "name" : "7os/web-page-500",
+  "description" : "7 OS Web - app template",
+  "homepage" : "https://github.com/7os/web-page-500",
+  "support" : {
+    "email" : "dev@tymfrontiers.com",
+    "website" : "https://tymfrontiers.com",
+    "kollabo" : "tymfrontiers",
+    "twitter" : "tymfrontiers",
+    "facebook" : "tymfrontiers",
+    "istagram" : "tymfrontiers"
+  }
+}
