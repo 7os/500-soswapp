@@ -22,4 +22,4 @@ $base_include = $conf->baseInclude;
 if (!\file_exists($base_include)) {
   throw new \Exception("[\"{$base_include}\"]: does not exist, kindly revert to 7 OS Web - app manual.", 1);
 }
-\define('APP_BASE_INC',$base_include . "/inc.php");
+\define('APP_BASE_INC',$base_include . "/base.init.php");
