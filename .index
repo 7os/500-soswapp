@@ -1,6 +1,6 @@
 {
   "http" : true,
-  "name" : "web-page-500",
+  "name" : "web-app-500",
   "path" : "\/500",
   "title" : "Internal Server Error",
   "sub-path" : [

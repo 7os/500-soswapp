@@ -3,8 +3,8 @@
 $conf_path = \str_replace([
   "/vendor/7os/web-app-500",
   "/dev/7os/web-app-500",
-  "\\vendor\\7os\\web-page-500",
-  "\\dev\\7os\\web-page-500",
+  "\\vendor\\7os\\web-app-500",
+  "\\dev\\7os\\web-app-500",
 ],"",__DIR__) . "/.system/appdata/7os/web-project";
 $conf_file = $conf_path . "/app.config";
 
