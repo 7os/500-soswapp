@@ -5,8 +5,8 @@ $conf_path = \str_replace([
   "/dev/7os/web-app-500",
   "\\vendor\\7os\\web-app-500",
   "\\dev\\7os\\web-app-500",
-],"",__DIR__) . "/.system/appdata/7os/web-app-500";
-$conf_file = $conf_path . "/app.config";
+],"",__DIR__);
+$conf_file = $conf_path . "/.project.info";
 
 if (!\file_exists($conf_file) || !\is_readable($conf_file)) {
   throw new \Exception("App config file missing/unreadable, kindly revert to 7 OS Web - app manual.", 1);
@@ -14,10 +14,10 @@ if (!\file_exists($conf_file) || !\is_readable($conf_file)) {
 
 $conf = \trim(\file_get_contents($conf_file));
 $conf = \json_decode($conf);
-if (empty($conf->baseInclude)) {
-  throw new \Exception("[baseInclude]: not set in app config.", 1);
+if (empty($conf->PRJ_ROOT)) {
+  throw new \Exception("[PRJ_ROOT]: not set in app config.", 1);
 }
-$base_include = $conf->baseInclude;
+$base_include = $conf->PRJ_ROOT;
 
 if (!\file_exists($base_include)) {
   throw new \Exception("[\"{$base_include}\"]: does not exist, kindly revert to 7 OS Web - app manual.", 1);
