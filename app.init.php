@@ -6,7 +6,7 @@ $conf_path = \str_replace([
   "\\vendor\\7os\\web-app-500",
   "\\dev\\7os\\web-app-500",
 ],"",__DIR__);
-$conf_file = $conf_path . "/.project.info";
+$conf_file = $conf_path . "/project-info.json";
 
 if (!\file_exists($conf_file) || !\is_readable($conf_file)) {
   throw new \Exception("App config file missing/unreadable, kindly revert to 7 OS Web - app manual.", 1);
