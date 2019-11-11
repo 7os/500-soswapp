@@ -23,12 +23,12 @@ if (!empty($params['message'])) $params['message'] = \urldecode($params['message
     <meta name="publisher" content="Your company">
     <meta name="robots" content='index'>
     <!-- Theming styles -->
-    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-theme/css/web-theme.min.css">
-    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-theme/css/web-theme-<?php echo PRJ_THEME; ?>.min.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/theme-soswapp/css/theme.min.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/theme-soswapp/css/theme-<?php echo PRJ_THEME; ?>.min.css">
     <!-- optional plugin -->
-    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-plugin/css/web-plugin.min.css">
-    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-dnav/css/web-dnav.min.css">
-    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/web-fader-box/css/web-fader-box.min.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/plugin-soswapp/css/plugin.min.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/dnav-soswapp/css/dnav.min.css">
+    <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/faderbox-soswapp/css/faderbox.min.css">
     <!-- Project styling -->
     <link rel="stylesheet" href="<?php echo \html_style("base.css"); ?>">
   </head>
@@ -58,13 +58,13 @@ if (!empty($params['message'])) $params['message'] = \urldecode($params['message
     </section>
     <?php include PRJ_INC_FOOTER; ?>
     <!-- Required scripts -->
-    <script src="<?php echo WHOST; ?>/7os/jquery/js/jquery.min.js">  </script>
-    <script src="<?php echo WHOST; ?>/7os/js-generic/js/js-generic.min.js">  </script>
-    <script src="<?php echo WHOST; ?>/7os/web-theme/web-theme.min.js" ></script>
+    <script src="<?php echo WHOST; ?>/7os/jquery-soswapp/js/jquery.min.js">  </script>
+    <script src="<?php echo WHOST; ?>/7os/js-generic-soswapp/js/js-generic.min.js">  </script>
+    <script src="<?php echo WHOST; ?>/7os/theme-soswapp/js/theme.min.js" ></script>
     <!-- optional plugins -->
-    <script src="<?php echo WHOST; ?>/7os/web-plugin/web-plugin.min.js" ></script>
-    <script src="<?php echo WHOST; ?>/7os/web-dnav/web-dnav.min.js" ></script>
-    <script src="<?php echo WHOST; ?>/7os/web-fader-box/web-fader-box.min.js" ></script>
+    <script src="<?php echo WHOST; ?>/7os/plugin-soswapp/js/plugin.min.js" ></script>
+    <script src="<?php echo WHOST; ?>/7os/dnav-soswapp/js/dnav.min.js" ></script>
+    <script src="<?php echo WHOST; ?>/7os/faderbox-soswapp/js/faderbox.min.js" ></script>
     <!-- project scripts -->
     <script src="<?php echo \html_script ("base.min.js"); ?>" ></script>
   </body>
