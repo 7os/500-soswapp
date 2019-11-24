@@ -33,6 +33,7 @@ if (!empty($params['message'])) $params['message'] = \urldecode($params['message
     <link rel="stylesheet" href="<?php echo \html_style("base.css"); ?>">
   </head>
   <body>
+    <?php \setup_page('500','base', true); ?>
     <?php include PRJ_INC_HEADER; ?>
     <section id="main-content">
       <div class="view-space">
