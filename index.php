@@ -10,7 +10,7 @@ $params = $gen->requestParam([
 if (!empty($params['message'])) $params['message'] = \urldecode($params['message']);
 ?>
 <!DOCTYPE html>
-<html lang="en" dir="ltr" manifest="./site.manifest">
+<html lang="en" dir="ltr" manifest="<?php echo WHOST; ?>/site.webmanifest">
   <head>
     <meta charset="utf-8">
     <title>500 - Internal Server Error</title>
