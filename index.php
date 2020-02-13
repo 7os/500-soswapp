@@ -17,12 +17,7 @@ $page_name = "500";
     <title>500 - Internal Server Error</title>
     <?php include PRJ_INC_ICONSET; ?>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
-    <meta name="keywords" content="7, seven, os, operating, system, template">
-    <meta name="description" content="7 OS Web - app template">
-    <meta name="author" content="Your developer">
-    <meta name="creator" content="7 OS">
-    <meta name="publisher" content="Your company">
-    <meta name="robots" content='index'>
+    <meta name="robots" content='nofollow'>
     <!-- Theming styles -->
     <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/font-awesome-soswapp/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo WHOST; ?>/7os/theme-soswapp/css/theme.min.css">
@@ -35,7 +30,7 @@ $page_name = "500";
     <link rel="stylesheet" href="<?php echo \html_style("base.css"); ?>">
   </head>
   <body>
-    <?php \setup_page('500','base', true); ?>
+    <?php \setup_page('500','base', true, PRJ_HEADER_HEIGHT); ?>
     <?php include PRJ_INC_HEADER; ?>
     <section id="main-content">
       <div class="view-space">
