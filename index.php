@@ -8,6 +8,7 @@ $params = $gen->requestParam([
   "message" => ["message","text",3,0]
 ],'get',[]);
 if (!empty($params['message'])) $params['message'] = \urldecode($params['message']);
+$page_name = "500";
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" manifest="<?php echo WHOST; ?>/site.webmanifest">
